@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                           http://xmlns.jcp.org/xml/ns/javaee/beans_1_1.xsd"
+       version="1.1" bean-discovery-mode="all">
+
+    <interceptors>
+        <class>beans.aop.interceptors.CustomInterceptor</class>
+    </interceptors>
+
+    <decorators>
+        <class>beans.aop.decorators.ServiceDecorator</class>
+    </decorators>
+
+    <alternatives>
+        <class>beans.injection.alternatives.Service2</class>
+    </alternatives>
+
+    <!--    <stereotypes>-->
+    <!--        <class>com.acme.business.MockPaymentProcessor</class>-->
+    <!--        <stereotype>com.acme.stereotype.Mock</stereotype>-->
+    <!--    </stereotypes>-->
+
+</beans>
