@@ -32,9 +32,7 @@ public abstract class Setup {
     // utility for shutting down the container
     protected void shutdown() {
         WeldContainer weldContainer = (WeldContainer) container;
-        if (weldContainer.isRunning()) {
-            weldContainer.shutdown();
-        }
+        weldContainer.shutdown();
     }
 
 }
