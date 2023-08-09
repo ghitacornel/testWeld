@@ -10,7 +10,7 @@ public class TestLifeCycle extends Setup {
     public void testSingletonLifeCycle() {
 
         SingletonLifeCycle bean = container.select(SingletonLifeCycle.class).get();
-        container.shutdown();
+        shutdown();
 
         Assert.assertTrue(bean.init);
         Assert.assertTrue(bean.destroy);
@@ -20,7 +20,7 @@ public class TestLifeCycle extends Setup {
     public void testPrototypeLifeCycle() {
 
         PrototypeLifeCycle bean = container.select(PrototypeLifeCycle.class).get();
-        container.shutdown();
+        shutdown();
 
         Assert.assertTrue(bean.init);
         Assert.assertTrue(bean.destroy);

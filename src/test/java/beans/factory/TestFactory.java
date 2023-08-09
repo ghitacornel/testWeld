@@ -33,7 +33,7 @@ public class TestFactory extends Setup {
 
         Assert.assertSame(bean1, bean2);
 
-        container.shutdown();
+        shutdown();
 
         Assert.assertFalse(bean1.postConstruct);
         Assert.assertFalse(bean1.preDestroy);
@@ -60,7 +60,7 @@ public class TestFactory extends Setup {
         Assert.assertNotSame(bean1, bean2);
         Assert.assertNotSame(bean1.component, bean2.component);
 
-        container.shutdown();
+        shutdown();
 
         Assert.assertFalse(bean1.postConstruct);
         Assert.assertFalse(bean1.preDestroy);

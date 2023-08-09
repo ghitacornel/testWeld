@@ -1,5 +1,6 @@
 package tests.setup;
 
+import jakarta.enterprise.inject.spi.CDI;
 import org.jboss.weld.environment.se.Weld;
 import org.jboss.weld.environment.se.WeldContainer;
 import org.junit.After;
@@ -11,7 +12,7 @@ public abstract class Setup {
     // use it for programmatic control of containers creation
     private static final Weld weld = new Weld();
 
-    protected WeldContainer container;
+    protected CDI<Object> container;
 
     @Before
     public void setUpContainer() {
@@ -20,8 +21,20 @@ public abstract class Setup {
 
     @After
     public void tearDownContainer() {
-        if (container != null && container.isRunning())
-            container.shutdown();
+        if (container != null) {
+            WeldContainer weldContainer = (WeldContainer) container;
+            if (weldContainer.isRunning()) {
+                weldContainer.shutdown();
+            }
+        }
+    }
+
+    // utility for shutting down the container
+    protected void shutdown() {
+        WeldContainer weldContainer = (WeldContainer) container;
+        if (weldContainer.isRunning()) {
+            weldContainer.shutdown();
+        }
     }
 
 }
