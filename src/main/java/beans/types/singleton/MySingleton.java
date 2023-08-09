@@ -1,6 +1,7 @@
 package beans.types.singleton;
 
-import javax.inject.Singleton;
+
+import jakarta.inject.Singleton;
 
 @Singleton
 public class MySingleton {

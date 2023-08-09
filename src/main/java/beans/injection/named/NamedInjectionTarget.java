@@ -1,7 +1,8 @@
 package beans.injection.named;
 
-import javax.inject.Inject;
-import javax.inject.Named;
+
+import jakarta.inject.Inject;
+import jakarta.inject.Named;
 
 public class NamedInjectionTarget {
 

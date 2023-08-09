@@ -1,8 +1,9 @@
 package beans.factory;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
-import javax.enterprise.inject.Vetoed;
+
+import jakarta.annotation.PostConstruct;
+import jakarta.annotation.PreDestroy;
+import jakarta.enterprise.inject.Vetoed;
 
 @Vetoed// force usage of Producer
 public class PrototypeProduct {

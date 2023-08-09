@@ -1,6 +1,7 @@
 package beans.injection.interfaces;
 
-import javax.inject.Inject;
+
+import jakarta.inject.Inject;
 
 public class InjectionInterfaceTarget {
 

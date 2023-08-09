@@ -5,9 +5,6 @@ import org.jboss.weld.environment.se.WeldContainer;
 import org.junit.After;
 import org.junit.Before;
 
-import javax.enterprise.inject.spi.Bean;
-import javax.enterprise.inject.spi.CDI;
-import java.util.Set;
 
 public abstract class Setup {
 

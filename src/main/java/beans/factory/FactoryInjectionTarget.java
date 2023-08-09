@@ -1,6 +1,7 @@
 package beans.factory;
 
-import javax.inject.Inject;
+
+import jakarta.inject.Inject;
 
 public class FactoryInjectionTarget {
 

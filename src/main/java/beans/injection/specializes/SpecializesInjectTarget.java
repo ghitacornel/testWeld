@@ -1,6 +1,7 @@
 package beans.injection.specializes;
 
-import javax.inject.Inject;
+
+import jakarta.inject.Inject;
 
 public class SpecializesInjectTarget {
 

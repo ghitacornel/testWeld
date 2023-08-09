@@ -1,6 +1,7 @@
 package beans.injection.alternatives;
 
-import javax.enterprise.inject.Alternative;
+
+import jakarta.enterprise.inject.Alternative;
 
 // excluded from injection unless specified as alternative in beans.xml
 @Alternative

@@ -1,10 +1,10 @@
 package tests;
 
+import jakarta.enterprise.inject.spi.CDI;
 import org.junit.Assert;
 import org.junit.Test;
 import tests.setup.Setup;
 
-import javax.enterprise.inject.spi.CDI;
 
 public class TestContainer extends Setup {
 

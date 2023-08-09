@@ -1,6 +1,7 @@
 package beans.injection.specializes;
 
-import javax.enterprise.inject.Specializes;
+
+import jakarta.enterprise.inject.Specializes;
 
 // total injection override
 // can be placed in separate module

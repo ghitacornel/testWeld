@@ -1,6 +1,7 @@
 package beans.injection.alternatives;
 
-import javax.inject.Inject;
+
+import jakarta.inject.Inject;
 
 public class InjectionTarget {
 
