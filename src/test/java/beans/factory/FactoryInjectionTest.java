@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import tests.setup.Setup;
 
-public class TestFactoryInjection extends Setup {
+public class FactoryInjectionTest extends Setup {
 
     @Test
     public void testInjection() {

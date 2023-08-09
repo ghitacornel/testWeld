@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import tests.setup.Setup;
 
-public class TestAlternatives extends Setup {
+public class AlternativesTest extends Setup {
 
     @Test
     public void testAlternative() {

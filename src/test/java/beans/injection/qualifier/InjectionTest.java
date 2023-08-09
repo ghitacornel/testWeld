@@ -1,13 +1,10 @@
 package beans.injection.qualifier;
 
-import beans.injection.named.NamedComponentImplementation1;
-import beans.injection.named.NamedComponentImplementation2;
-import beans.injection.named.NamedInjectionTarget;
 import org.junit.Assert;
 import org.junit.Test;
 import tests.setup.Setup;
 
-public class TestInjection extends Setup {
+public class InjectionTest extends Setup {
 
     @Test
     public void testInjection() {

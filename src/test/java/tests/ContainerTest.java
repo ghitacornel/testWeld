@@ -6,7 +6,7 @@ import org.junit.Test;
 import tests.setup.Setup;
 
 
-public class TestContainer extends Setup {
+public class ContainerTest extends Setup {
 
     @Test
     public void testContainerIsRunning() {

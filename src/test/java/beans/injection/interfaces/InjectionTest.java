@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import tests.setup.Setup;
 
-public class TestInjection extends Setup {
+public class InjectionTest extends Setup {
 
     @Test
     public void testInjection() {

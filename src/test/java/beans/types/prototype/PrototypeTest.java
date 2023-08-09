@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import tests.setup.Setup;
 
-public class TestPrototype extends Setup {
+public class PrototypeTest extends Setup {
 
     @Test
     public void testPrototype() {

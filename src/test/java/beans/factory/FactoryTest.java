@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import tests.setup.Setup;
 
-public class TestFactory extends Setup {
+public class FactoryTest extends Setup {
 
     @Test
     public void testFactory() {

@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import tests.setup.Setup;
 
-public class TestEvents extends Setup {
+public class EventsTest extends Setup {
 
     @Test
     public void testProduceConsume() {

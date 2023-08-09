@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import tests.setup.Setup;
 
-public class TestSpecializes extends Setup {
+public class SpecializesTest extends Setup {
 
     @Test
     public void testSpecializes() {

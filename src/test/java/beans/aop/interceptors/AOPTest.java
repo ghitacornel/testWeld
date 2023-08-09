@@ -1,11 +1,10 @@
 package beans.aop.interceptors;
 
-import beans.aop.interceptors.InterceptorTarget;
 import org.junit.Assert;
 import org.junit.Test;
 import tests.setup.Setup;
 
-public class TestAOP extends Setup {
+public class AOPTest extends Setup {
 
     @Test
     public void testIntercept() {

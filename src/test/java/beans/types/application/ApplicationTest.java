@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import tests.setup.Setup;
 
-public class TestApplication extends Setup {
+public class ApplicationTest extends Setup {
 
     @Test
     public void testSingleton() {
